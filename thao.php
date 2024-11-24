@@ -71,6 +71,7 @@ if (isset($_GET['edit_student'])) {
 <html>
 <head>
     <title>Quản lý danh sách sinh viên</title>
+    <h1> thêm mới </h1>
     <style>
         table {
             width: 100%;
