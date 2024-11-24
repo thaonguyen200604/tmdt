@@ -1,14 +1,14 @@
 <?php
-// Kết nối tới cơ sở dữ liệu
+
 $servername = "localhost";
 $username = "root";
 $password = "";
 $dbname = "students_db";
 
-// Tạo kết nối
+
 $conn = new mysqli($servername, $username, $password, $dbname);
 
-// Kiểm tra kết nối
+
 if ($conn->connect_error) {
     die("Kết nối thất bại: " . $conn->connect_error);
 }
@@ -28,9 +28,9 @@ if (isset($_POST['add_student'])) {
     }
 }
 
-// Cập nhật thông tin sinh viên
+
 if (isset($_POST['update_student'])) {
-    $id = $_POST['id'];  // Đảm bảo id được lấy từ form
+    $id = $_POST['id'];  
     $name = $_POST['name'];
     $email = $_POST['email'];
     $age = $_POST['age'];
