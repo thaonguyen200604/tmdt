@@ -13,7 +13,7 @@ if ($conn->connect_error) {
     die("Kết nối thất bại: " . $conn->connect_error);
 }
 
-// Thêm sinh viên mới
+
 if (isset($_POST['add_student'])) {
     $id = $_POST['id']; 
     $name = $_POST['name'];
