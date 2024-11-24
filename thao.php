@@ -70,7 +70,7 @@ if (isset($_GET['edit_student'])) {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Quản lý danh sách sinh viên</title>
+    <title>Quản lý danh sách sv</title>
     <h1> thêm mới </h1>
     <style>
         table {
